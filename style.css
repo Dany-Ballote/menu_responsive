@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+   background-color: #e6e6e6;
+}
+
+.logotipo{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+}
+
+.bar_menu a{
+    background-color: #28567a;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 35px;
+}
+
+.bar_menu a {
+    display: none;
+}
+
+.icono_menu{
+    color: #fff;
+}
+
+.menu{
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu a{
+    text-decoration: none;
+    border: 2px solid #28567a;
+    color:#28567a;
+    padding: 15px 25px;
+    border-radius: 10px;
+
+}
+
+.menu a:hover{
+    background-color:#28567a;
+    color:white;
+}
+
+.contenedor{
+    padding: 20px;
+    border: 2px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagen_contenedor{
+    width: 500px;
+}
+
+.imagen_contenedor img{
+    width: 100%;
+}
+
+.texto{
+    width: 500px;
+}
+
+.texto h1{
+    color: #cc9900;
+}
+
+.btn_leer{
+    border: 2px solid #800000;
+    background-color: #800000;
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn_leer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #28567a;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+    height: 30px;
+}
+
+
+/* tablet */
+
+@media screen and (max-width:1200px) {
+    .contenedor{
+        width: 1150px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .menu a{
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px dotted #000;
+        display: block;
+        width: 100%;
+    }
+
+    .bar_menu{
+        padding: 15px;
+    }
+
+    .bar_menu a {
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+    .contenedor{
+        width: 750px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .menu a{
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px dotted #000;
+        display: block;
+        width: 100%;
+    }
+
+    .bar_menu{
+        padding: 15px;
+    }
+
+    .bar_menu a {
+        display: block;
+    }
+    
+}
+
+/* celulares */
+
+@media screen and (max-width:480px) {
+    header{
+        width: 100%;
+    }
+    .contenedor{
+        width: 450px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .menu a{
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px dotted #000;
+        display: block;
+        width: 100%;
+    }
+
+    .texto{
+    width: 300px;
+}
+
+.imagen_contenedor{
+    width: 350px;
+}
+
+    .bar_menu{
+        padding: 15px;
+    }
+
+    .bar_menu a {
+        display: block;
+    }
+    
+}
+
+@media screen and (max-width:386px) {
+    header{
+        width: 100%;
+    }
+    .contenedor{
+        width: 350px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        padding: 20px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: none;
+    }
+
+    .menu a{
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px dotted #000;
+        display: block;
+        width: 100%;
+    }
+
+    .texto{
+    width: 300px;
+}
+
+.imagen_contenedor{
+    width: 300px;
+}
+
+    .bar_menu{
+        padding: 15px;
+    }
+
+    .bar_menu a {
+        display: block;
+    }
+    
+}
+

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <header class="ancho">
+        <figure class="logotipo">
+            <img src="imagenes/pullrequest-logo.svg" alt="logotipo">
+        </figure>
+        </header>
+        <div class="bar_menu ancho">
+            <a id="icono_menu" href="#"><img src="imagenes/bars-solid.svg" alt="menu"></a>
+        </div>
+        <nav class="menu ancho">
+            <a href="#">Inicio</a>
+            <a href="#">Empresa</a>
+            <a href="#">Servicios</a>
+            <a href="#">Clientes</a>
+            <a href="#">Ubicación</a>
+            <a href="#">Contactanos</a>
+        </nav>
+
+    <main class="contenedor ancho">
+        <div class="texto">
+            <h1>Creación de páginas Web</h1>
+            <br>
+            <h2>Curso básico HTML5 y CSS3</h2>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut iusto nostrum blanditiis harum, repellendus doloribus et nobis aperiam deleniti a temporibus tempora tempore corporis illo. Qui dolor reiciendis ratione! Nisi.</p>
+            <br>
+
+            <div class="btn_leer " id="leer">
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+        <figure class="imagen_contenedor">
+            <img src="imagenes/foto_pullrequest.svg" alt="persona">
+        </figure>
+    </main>
+    <br>
+    <footer class="ancho">
+        <p>@Daniel Ballote</p>
+    </footer>
+  
+
+    <script>
+      $("#icono_menu"). click(function(){
+        $("nav").slideToggle();
+      });
+    </script>
+
+    
+</body>
+</html>
